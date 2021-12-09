@@ -171,4 +171,7 @@ p {
         text-align: center;
         padding: 3% 7%;
     }
+        .nav-link {
+        font-size: 2rem;
+    }
 }
