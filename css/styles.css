@@ -197,6 +197,13 @@ p {
         padding-bottom: 1.5rem;
         font-size: 2rem;
     }
+        .Testimonial-text {
+        font-size: 2.5rem;
+        line-height: 1.5;
+    }
+    .carousel-item em {
+        font-size: 1.5rem;
+    }
 
 
 }
