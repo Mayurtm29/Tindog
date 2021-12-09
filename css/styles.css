@@ -1,0 +1,173 @@
+Body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    color: #bfbfbf;
+}
+
+/* heading */
+.big-heading {
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.section-heading {
+    font-size: 3rem;
+    font-weight: 510;
+    line-height: 1.5;
+}
+
+/* conatiner */
+.container-fluid {
+    padding: 7% 15%;
+}
+/* section */
+.colored-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+.white-section{
+    background-color:#fff;
+}
+
+/* navbar */
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.navbar {
+    padding: 0 0 4.5rem 0;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+
+
+/* Title */
+#title .container-fluid {
+    padding-top: 3%;
+    text-align: left;
+}
+
+.download-btn {
+    margin: 5% 3% 5% 0;
+}
+
+.iphone {
+    position: absolute;
+    right: 22%;
+    transform: rotate(25deg);
+    width: 21%;
+}
+
+/* Features */
+#features {
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box {
+    padding: 5%;
+}
+
+.icon {
+    color: #ef8172;
+    margin: 1.5rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+.feature-title {
+    font-weight: 510;
+    font-size: 1.5rem;
+}
+
+/* testomonial section */
+#testimonials {
+    background-color: #ef8172;
+}
+
+.testimonial-img {
+    border-radius: 100%;
+    margin: 1.2rem;
+    width: 10%;
+}
+
+.carousel-item {
+    padding: 3% 15%;
+}
+
+.Testimonial-text {
+    font-weight: 510;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* press */
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    margin: 1.25rem 1.25rem 3.125rem;
+    width: 10%;
+}
+
+/* pricing */
+#pricing {
+    padding: 6.25rem;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.price-heading {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Call to Action */
+
+
+/* Footer */
+
+.social {
+    padding: 0.6rem;
+}
+
+.social:hover {
+    color: #ff4c68;
+}
+
+/* media-query */
+@media (max-width:1050px) {
+    .iphone {
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+    }
+
+    #title {
+        text-align: center;
+    }
+}
